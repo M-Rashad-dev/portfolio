@@ -15,7 +15,7 @@ export const contact = {
   whatsapp: 'https://wa.me/201094062024',
   linkedin: 'https://www.linkedin.com/in/dev-mohamed-rashad/',
   github: 'https://github.com/M-Rashad-dev',
-  cv: '/Mohamed-Rashad-CV.pdf', // TODO: add the PDF to /public
+  cv: '/Mohamed-Back-End.pdf',
 }
 
 export const SITE_URL = 'https://mohamed.dev' // TODO: final domain

@@ -73,7 +73,15 @@ export default function Hero() {
             <Button as="a" href="#projects" onClick={(e) => { e.preventDefault(); scrollToId('projects') }}>
               {t('hero.projects')}
             </Button>
-            <Button as="a" variant="secondary" href={contact.cv} download className="text-paper">
+            <Button
+              as="a"
+              variant="secondary"
+              href={contact.cv}
+              download="Mohamed-Back-End.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-paper"
+            >
               {t('hero.cv')}
             </Button>
           </div>

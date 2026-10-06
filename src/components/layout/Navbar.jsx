@@ -39,11 +39,12 @@ export default function Navbar({ onPalette }) {
   return (
     <header
       className={clsx(
-        'fixed inset-x-0 top-0 z-50 transition-[background-color,backdrop-filter] duration-200',
-        scrolled && 'bg-ink/80 backdrop-blur-md',
+        'fixed inset-x-0 top-0 z-50 transition-colors duration-200',
+        !open && scrolled && 'bg-ink/85 backdrop-blur-md',
+        open && 'bg-ink',
       )}
     >
-      <div className="container flex h-16 max-w-page items-center justify-between gap-4">
+      <div className="container relative z-50 flex h-16 max-w-page items-center justify-between gap-4">
         <a href="#" onClick={(e) => { e.preventDefault(); scrollToTop() }} aria-label="Mohamed Rashad">
           <Brand />
         </a>
@@ -90,26 +91,36 @@ export default function Navbar({ onPalette }) {
       <AnimatePresence>
         {open && (
           <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 0.2 }}
-            className="fixed inset-0 top-16 z-40 flex flex-col justify-center gap-2 bg-ink px-8 lg:hidden"
+            initial={{ opacity: 0, y: -10 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -10 }}
+            transition={{ duration: 0.25, ease: [0.22, 1, 0.36, 1] }}
+            className="fixed inset-0 z-40 flex flex-col justify-between bg-ink pt-20 pb-8 px-8 lg:hidden min-h-screen w-screen overflow-y-auto"
           >
-            {SECTION_IDS.map((id, i) => (
-              <motion.a
-                key={id}
-                href={`#${id}`}
-                onClick={(e) => go(e, id)}
-                dir="ltr"
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.06 * i, duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
-                className={clsx('block py-2 text-start font-mono text-3xl', active === id ? 'text-sky' : 'text-paper')}
-              >
-                /{t(`nav.${id}`)}
-              </motion.a>
-            ))}
+            <div className="flex flex-col justify-center flex-1 gap-4 my-auto">
+              {SECTION_IDS.map((id, i) => (
+                <motion.a
+                  key={id}
+                  href={`#${id}`}
+                  onClick={(e) => go(e, id)}
+                  dir="ltr"
+                  initial={{ opacity: 0, x: -16 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ delay: 0.04 * i, duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
+                  className={clsx(
+                    'block py-2 text-start font-mono text-3xl font-semibold transition-colors',
+                    active === id ? 'text-sky' : 'text-paper hover:text-sky',
+                  )}
+                >
+                  /{t(`nav.${id}`)}
+                </motion.a>
+              ))}
+            </div>
+
+            <div className="pt-6 border-t border-sky-line/25 flex items-center justify-between text-xs font-mono text-muted-dark" dir="ltr">
+              <span>Mohamed Rashad</span>
+              <span className="text-sky font-medium">Full Stack Developer</span>
+            </div>
           </motion.div>
         )}
       </AnimatePresence>

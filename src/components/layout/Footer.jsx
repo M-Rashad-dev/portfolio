@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <footer className="border-t border-sky-line bg-ink py-8 text-paper">
       <div className="container flex max-w-page flex-wrap items-center justify-between gap-4">
-        <p dir="ltr" className="mono-label text-muted-dark">
+        <p className="mono-label text-muted-dark">
           {t('footer.line')}
         </p>
         <div className="flex items-center gap-3">

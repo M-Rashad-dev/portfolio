@@ -5,12 +5,12 @@
   },
   "skip": "تخطّى إلى المحتوى",
   "nav": {
-    "about": "about",
-    "architecture": "architecture",
-    "playground": "playground",
-    "projects": "projects",
-    "journey": "journey",
-    "contact": "contact",
+    "about": "من أنا",
+    "architecture": "المعمارية",
+    "playground": "جرّب الـ API",
+    "projects": "المشاريع",
+    "journey": "رحلتي",
+    "contact": "تواصل معي",
     "menu": "القائمة",
     "close": "إغلاق",
     "palette": "فتح لوحة الأوامر"
@@ -161,7 +161,7 @@
       "todo": "TODO: الرابط"
     }
   },
-  "footer": { "line": "200 OK · © 2026 Mohamed Rashad", "top": "للأعلى" },
+  "footer": { "line": "200 OK · © 2026 محمد رشاد", "top": "للأعلى" },
   "palette": {
     "placeholder": "اكتب أمر… (php artisan)",
     "empty": "مفيش نتايج",

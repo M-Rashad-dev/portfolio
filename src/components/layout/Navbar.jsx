@@ -11,7 +11,8 @@ import { scrollToId, scrollToTop } from '../../lib/scroll'
 import { SECTION_IDS } from '../../lib/sections'
 
 export default function Navbar({ onPalette }) {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
+  const isAr = i18n.language === 'ar'
   const [scrolled, setScrolled] = useState(false)
   const [open, setOpen] = useState(false)
   const active = useScrollSpy(SECTION_IDS)
@@ -49,7 +50,7 @@ export default function Navbar({ onPalette }) {
           <Brand />
         </a>
 
-        <nav aria-label="Primary" dir="ltr" className="hidden items-center gap-6 lg:flex">
+        <nav aria-label="Primary" className="hidden items-center gap-6 lg:flex">
           {SECTION_IDS.map((id) => (
             <a
               key={id}
@@ -61,7 +62,7 @@ export default function Navbar({ onPalette }) {
                 active === id ? 'border-sky text-sky' : 'border-transparent text-muted-dark hover:text-paper',
               )}
             >
-              /{t(`nav.${id}`)}
+              {isAr ? t(`nav.${id}`) : `/${t(`nav.${id}`)}`}
             </a>
           ))}
         </nav>
@@ -103,8 +104,7 @@ export default function Navbar({ onPalette }) {
                   key={id}
                   href={`#${id}`}
                   onClick={(e) => go(e, id)}
-                  dir="ltr"
-                  initial={{ opacity: 0, x: -16 }}
+                  initial={{ opacity: 0, x: isAr ? 16 : -16 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ delay: 0.04 * i, duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
                   className={clsx(
@@ -112,14 +112,14 @@ export default function Navbar({ onPalette }) {
                     active === id ? 'text-sky' : 'text-paper hover:text-sky',
                   )}
                 >
-                  /{t(`nav.${id}`)}
+                  {isAr ? t(`nav.${id}`) : `/${t(`nav.${id}`)}`}
                 </motion.a>
               ))}
             </div>
 
-            <div className="pt-6 border-t border-sky-line/25 flex items-center justify-between text-xs font-mono text-muted-dark" dir="ltr">
-              <span>Mohamed Rashad</span>
-              <span className="text-sky font-medium">Full Stack Developer</span>
+            <div className="pt-6 border-t border-sky-line/25 flex items-center justify-between text-xs font-mono text-muted-dark">
+              <span>{isAr ? 'محمد رشاد' : 'Mohamed Rashad'}</span>
+              <span className="text-sky font-medium">{isAr ? 'مطور Full Stack' : 'Full Stack Developer'}</span>
             </div>
           </motion.div>
         )}

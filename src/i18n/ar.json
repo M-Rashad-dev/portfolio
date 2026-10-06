@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "title": "محمد رشاد — Full Stack Web Developer",
+    "description": "محمد رشاد، Full Stack Web Developer. Laravel أولًا وReact للواجهة. 4 سنين React و3 سنين Laravel."
+  },
+  "skip": "تخطّى إلى المحتوى",
+  "nav": {
+    "about": "about",
+    "architecture": "architecture",
+    "playground": "playground",
+    "projects": "projects",
+    "journey": "journey",
+    "contact": "contact",
+    "menu": "القائمة",
+    "close": "إغلاق",
+    "palette": "فتح لوحة الأوامر"
+  },
+  "boot": {
+    "serve": "$ php artisan serve",
+    "running": "Server running on http://mohamed.dev",
+    "checks": ["✔ routes loaded", "✔ cache warmed", "✔ database connected"]
+  },
+  "hero": {
+    "pill": "Full Stack Web Developer",
+    "h1a": "أنا محمد رشاد، وبَبني ",
+    "h1b": "الجزء اللي ما بتشوفوش",
+    "h1c": ".",
+    "sub": "واجهة تشوفها. باك إند تثق فيه. Laravel أولًا، وReact للواجهة.",
+    "projects": "شوف المشاريع",
+    "cv": "حمّل الـ CV",
+    "scroll": "↓ scroll"
+  },
+  "about": {
+    "tag": "/about",
+    "title": "مين محمد؟",
+    "p1": "أنا محمد رشاد، وبَبني الجزء اللي ما بتشوفوش. واجهة تشوفها. باك إند تثق فيه. ونظام جاهز يكبر مع المشروع.",
+    "p2": "Full Stack Web Developer بخبرة أكتر من 4 سنين في تطوير الويب، متخصص في Laravel وReact.js، وباهتم ببناء تطبيقات سريعة، آمنة، وقابلة للتوسع، بداية من تصميم قواعد البيانات والـAPIs لحد الواجهات وتجربة المستخدم.",
+    "p3": "بدرس ذكاء إصطناعي في جامعة السويدي ودا طبعا بعد تخرجي من مدرسة السويدي اللي درست فيها 3سنوات برمجه بمناهج بريطانيه موثقه بشهاده Pearson BTECs البريطانيه، وخلال رحلتي اشتغلت على مشاريع حقيقية في مجالات مختلفة، منها E-commerce، LMS، ERP، Medical Systems، Multi-Vendor وMulti-Tenancy.",
+    "p4": "من أبرز المشاريع اللي اشتغلت عليها Tabiiba، منصة متكاملة للحجوزات والخدمات الطبية تربط المرضى بالأطباء والمراكز والمنشآت الطبية، واشتغلت فيها على أنظمة الحجز، العيادات والفروع، الصلاحيات، الإشعارات والـDashboards.",
+    "p5": "كمان اشتغلت على WizFreelance، وهو موقع تعريفي مع نظام داشبورد متكامل لإداره الشركه من اول تقديم العميل لطلب مشروع او استفسار إلي السيلز والمشاريع والفريلانس ومحتوي الموقع والسيو كل دا واكتر بيتم إدارته من قبل الداشبورد، بالإضافة إلى بناء وتطوير منصات Multi-Vendor وأنظمة Multi-Tenancy تخدم أكثر من Business من نفس النظام مع فصل البيانات والصلاحيات.",
+    "p6": "بركّز في شغلي على Clean Code، Performance، Scalability، Security وRESTful APIs، وعندي خبرة في العمل عن بُعد مع شركات وعملاء داخل مصر والسعودية.",
+    "readMore": "قراءة كامل النبذة ↓",
+    "readLess": "عرض أقل ↑",
+    "photo": "TODO: صورة شخصية",
+    "stats": {
+      "react": "سنين خبرة React",
+      "laravel": "سنين خبرة Laravel",
+      "stores": "متجر Salla وZid",
+      "oxford": "سكور أداء Oxford Academy"
+    },
+    "info": {
+      "role": "الدور",
+      "roleV": "Full Stack Web Developer",
+      "based": "المكان",
+      "basedV": "العاشر من رمضان، مصر",
+      "focus": "الدور الوظيفي",
+      "focusV": "Laravel back-end · React front-end",
+      "edu": "الدراسة",
+      "eduV": "الذكاء الاصطناعي — SUT"
+    }
+  },
+  "arch": {
+    "tag": "/architecture",
+    "title": "اللي بيحصل ورا الستارة",
+    "stage": "المرحلة",
+    "snippet": "illustrative snippet",
+    "stages": [
+      {
+        "name": "Request",
+        "text": "عملاء React وVue وInertia.js بيكلموا REST APIs وAJAX endpoints."
+      },
+      {
+        "name": "Middleware",
+        "text": "Multi-authentication وصلاحيات حسب الدور (admin وlecturer وstudent؛ super admin وdoctor وmedical center)."
+      },
+      {
+        "name": "Controller",
+        "text": "هيكلة MVC وendpoints من نوع RESTful متجرّبة بـ Postman."
+      },
+      {
+        "name": "Service",
+        "text": "منطق OOP للحجز وقواعد الـ LMS والـ multi-tenancy."
+      },
+      {
+        "name": "Database & Cache",
+        "text": "SQL وPL/SQL وLaravel models وRedis caching."
+      },
+      {
+        "name": "Response",
+        "text": "JSON من الـ API أو صفحات Inertia؛ وسكور أداء 97% على موقع Oxford Academy."
+      }
+    ]
+  },
+  "play": {
+    "tag": "/playground",
+    "title": "جرّب الـ API بنفسك",
+    "intro": "اضغط على endpoint واستلم بيانات حقيقية من ملفات الموقع.",
+    "send": "Send",
+    "pretty": "Pretty",
+    "raw": "Raw",
+    "copy": "Copy",
+    "copied": "Copied",
+    "empty": "اختار endpoint واضغط Send",
+    "ms": "ms",
+    "notFound": "404 Not Found"
+  },
+  "projects": {
+    "tag": "/projects",
+    "title": "المشاريع",
+    "filters": {
+      "all": "All",
+      "backend": "Back-end heavy",
+      "fullstack": "Full-stack",
+      "ecommerce": "E-commerce",
+      "systems": "Systems"
+    },
+    "live": "Live",
+    "screenshot": "TODO: screenshot",
+    "open": "افتح دراسة الحالة",
+    "overview": "Overview",
+    "role": "My role",
+    "roleV": "تطوير الـ back-end والـ front-end حسب المشروع (TODO: تفاصيل الدور)",
+    "stack": "Stack",
+    "features": "Key features",
+    "arch": "Architecture",
+    "gallery": "Gallery",
+    "links": "Links",
+    "liveUrl": "Live URL",
+    "todoUrl": "TODO: رابط المشروع",
+    "close": "إغلاق",
+    "rbac": "لوحات تحكم حسب الدور لكل مستوى."
+  },
+  "stack": { "tag": "/stack", "title": "الأدوات والتقنيات" },
+  "journey": {
+    "tag": "git log --oneline",
+    "title": "رحلتي",
+    "dates": "TODO: التواريخ",
+    "education": "التعليم والتدريب"
+  },
+  "contact": {
+    "tag": "/contact",
+    "title": "جاهز نبني حاجة سوا؟",
+    "route": "POST /api/contact",
+    "name": "name",
+    "email": "email",
+    "message": "message",
+    "send": "Send request",
+    "sending": "Sending…",
+    "wait": "استنى ثواني قبل الإرسال تاني.",
+    "emailjs": "TODO: مفاتيح EmailJS مش مضافة — الرد تجريبي.",
+    "copy": "نسخ",
+    "copied": "اتنسخ",
+    "required": "مطلوب",
+    "invalid": "بريد غير صحيح",
+    "cards": {
+      "email": "Email",
+      "whatsapp": "WhatsApp",
+      "phone": "Phone",
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "todo": "TODO: الرابط"
+    }
+  },
+  "footer": { "line": "200 OK · © 2026 Mohamed Rashad", "top": "للأعلى" },
+  "palette": {
+    "placeholder": "اكتب أمر… (php artisan)",
+    "empty": "مفيش نتايج",
+    "title": "لوحة الأوامر"
+  }
+}

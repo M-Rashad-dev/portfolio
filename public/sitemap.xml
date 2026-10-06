@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- TODO: replace mohamed.dev with the final domain -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://mohamed.dev/ar</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed.dev/ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed.dev/en" />
+  </url>
+  <url>
+    <loc>https://mohamed.dev/en</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mohamed.dev/ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mohamed.dev/en" />
+  </url>
+</urlset>

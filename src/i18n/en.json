@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "title": "Mohamed Rashad — Full Stack Web Developer",
+    "description": "Mohamed Rashad, Full Stack Web Developer. Laravel first, React on top. 4 years of React and 3 years of Laravel."
+  },
+  "skip": "Skip to content",
+  "nav": {
+    "about": "about",
+    "architecture": "architecture",
+    "playground": "playground",
+    "projects": "projects",
+    "journey": "journey",
+    "contact": "contact",
+    "menu": "Menu",
+    "close": "Close",
+    "palette": "Open command palette"
+  },
+  "boot": {
+    "serve": "$ php artisan serve",
+    "running": "Server running on http://mohamed.dev",
+    "checks": ["✔ routes loaded", "✔ cache warmed", "✔ database connected"]
+  },
+  "hero": {
+    "pill": "Full Stack Web Developer",
+    "h1a": "I'm Mohamed Rashad. I build ",
+    "h1b": "the part you don't see",
+    "h1c": ".",
+    "sub": "An interface you can see. A back-end you can trust. Laravel first, React on top.",
+    "projects": "View projects",
+    "cv": "Download CV",
+    "scroll": "↓ scroll"
+  },
+  "about": {
+    "tag": "/about",
+    "title": "Who is Mohamed?",
+    "p1": "I'm Mohamed Rashad, and I build the parts you don't see. An interface you can see. A backend you can trust. And a system ready to scale with the project.",
+    "p2": "Full Stack Web Developer with over 4 years of web development experience, specializing in Laravel and React.js. Focused on building fast, secure, and scalable applications, from database architecture and APIs to user interfaces and UX.",
+    "p3": "Studying Artificial Intelligence at Elsewedy University of Technology (SUT) following my graduation from Elsewedy School where I studied 3 years of software engineering under the British Pearson BTECs curriculum. Throughout my journey, I have built production solutions across E-commerce, LMS, ERP, Medical Systems, Multi-Vendor, and Multi-Tenancy.",
+    "p4": "Among my key projects is Tabiiba, a comprehensive healthcare and appointment booking platform connecting patients with doctors, clinics, and medical centers, where I built scheduling engines, clinics & branches, access control, notifications, and analytics dashboards.",
+    "p5": "I also engineered WizFreelance, an official corporate portal with an all-in-one management dashboard overseeing client project requests, sales, freelance operations, content, and SEO, alongside developing Multi-Vendor and Multi-Tenancy systems serving multiple businesses with strict tenant and data isolation.",
+    "p6": "Committed to Clean Code, Performance, Scalability, Security, and RESTful APIs, with extensive remote work experience with clients and enterprises in Egypt and Saudi Arabia.",
+    "readMore": "Read full bio ↓",
+    "readLess": "Show less ↑",
+    "photo": "TODO: photo",
+    "stats": {
+      "react": "years of React",
+      "laravel": "years of Laravel",
+      "stores": "Salla & Zid stores",
+      "oxford": "Oxford Academy performance score"
+    },
+    "info": {
+      "role": "Role",
+      "roleV": "Full Stack Web Developer",
+      "based": "Based in",
+      "basedV": "10th of Ramadan, Egypt",
+      "focus": "Focus",
+      "focusV": "Laravel back-end · React front-end",
+      "edu": "Education",
+      "eduV": "Artificial Intelligence — SUT"
+    }
+  },
+  "arch": {
+    "tag": "/architecture",
+    "title": "Behind the curtain",
+    "stage": "Stage",
+    "snippet": "illustrative snippet",
+    "stages": [
+      { "name": "Request", "text": "React, Vue and Inertia.js clients talk to REST APIs and AJAX endpoints." },
+      { "name": "Middleware", "text": "Multi-authentication and role-based access (admin, lecturer, student; super admin, doctor, medical center)." },
+      { "name": "Controller", "text": "MVC structure and RESTful endpoints tested with Postman." },
+      { "name": "Service", "text": "OOP business logic for booking, LMS rules and multi-tenancy." },
+      { "name": "Database & Cache", "text": "SQL and PL/SQL, Laravel models, Redis caching." },
+      { "name": "Response", "text": "JSON from the API or Inertia pages; a 97% performance score on the Oxford Academy site." }
+    ]
+  },
+  "play": {
+    "tag": "/playground",
+    "title": "Try the API yourself",
+    "intro": "Click an endpoint and get real data from this site's data files.",
+    "send": "Send",
+    "pretty": "Pretty",
+    "raw": "Raw",
+    "copy": "Copy",
+    "copied": "Copied",
+    "empty": "Pick an endpoint and press Send",
+    "ms": "ms",
+    "notFound": "404 Not Found"
+  },
+  "projects": {
+    "tag": "/projects",
+    "title": "Projects",
+    "filters": { "all": "All", "backend": "Back-end heavy", "fullstack": "Full-stack", "ecommerce": "E-commerce", "systems": "Systems" },
+    "live": "Live",
+    "screenshot": "TODO: screenshot",
+    "open": "Open case study",
+    "overview": "Overview",
+    "role": "My role",
+    "roleV": "Back-end and front-end development depending on the project (TODO: role details)",
+    "stack": "Stack",
+    "features": "Key features",
+    "arch": "Architecture",
+    "gallery": "Gallery",
+    "links": "Links",
+    "liveUrl": "Live URL",
+    "todoUrl": "TODO: project URL",
+    "close": "Close",
+    "rbac": "Role-based dashboards at every level."
+  },
+  "stack": { "tag": "/stack", "title": "Tools & technologies" },
+  "journey": {
+    "tag": "git log --oneline",
+    "title": "My journey",
+    "dates": "TODO: dates",
+    "education": "Education & training"
+  },
+  "contact": {
+    "tag": "/contact",
+    "title": "Ready to build something together?",
+    "route": "POST /api/contact",
+    "name": "name",
+    "email": "email",
+    "message": "message",
+    "send": "Send request",
+    "sending": "Sending…",
+    "wait": "Please wait a few seconds before sending again.",
+    "emailjs": "TODO: EmailJS keys not set — this response is simulated.",
+    "copy": "Copy",
+    "copied": "Copied",
+    "required": "Required",
+    "invalid": "Invalid email",
+    "cards": { "email": "Email", "whatsapp": "WhatsApp", "phone": "Phone", "linkedin": "LinkedIn", "github": "GitHub", "todo": "TODO: URL" }
+  },
+  "footer": { "line": "200 OK · © 2026 Mohamed Rashad", "top": "Back to top" },
+  "palette": {
+    "placeholder": "Type a command… (php artisan)",
+    "empty": "No results",
+    "title": "Command palette"
+  }
+}

@@ -1,0 +1,31 @@
+export const skills = {
+  frontend: [
+    { name: 'HTML5', icon: 'SiHtml5' },
+    { name: 'CSS3', icon: 'SiCss' },
+    { name: 'JavaScript', icon: 'SiJavascript' },
+    { name: 'Bootstrap', icon: 'SiBootstrap' },
+    { name: 'Tailwind', icon: 'SiTailwindcss' },
+    { name: 'React.js', icon: 'SiReact' },
+    { name: 'React Redux', icon: 'SiRedux' },
+    { name: 'MUI React', icon: 'SiMui' },
+    { name: 'jQuery', icon: 'SiJquery' },
+    { name: 'AJAX', icon: null },
+    { name: 'Vue.js', icon: 'SiVuedotjs' },
+  ],
+  backend: [
+    { name: 'PHP', icon: 'SiPhp' },
+    { name: 'Laravel', icon: 'SiLaravel' },
+    { name: 'SQL / PLSQL', icon: null },
+    { name: 'MVC', icon: null },
+    { name: 'OOP', icon: null },
+    { name: 'API', icon: null },
+    { name: 'Caching', icon: null },
+    { name: 'Inertia.js', icon: 'SiInertia' },
+    { name: 'Redis', icon: 'SiRedis' },
+  ],
+  tools: [
+    { name: 'Postman', icon: 'SiPostman' },
+    { name: 'Git', icon: 'SiGit' },
+    { name: 'GitHub', icon: 'SiGithub' },
+  ],
+}
